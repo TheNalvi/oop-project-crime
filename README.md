@@ -16,7 +16,7 @@ Justicia models a simplified legal workflow: crimes are investigated, evidence i
 | `factory.py` | Factory pattern — creates Crime objects by type |
 | `court.py` | Strategy pattern — sentencing algorithms and Judge |
 | `main.py` | Demo run |
-| `test.py` | Unit tests |
+| `tests.py` | Unit tests |
 
 ---
 
