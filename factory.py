@@ -12,6 +12,6 @@ class CrimeFactory:
         key = crime_type.strip().lower()
         crime_class = CrimeFactory._registry.get(key)
         if not crime_class:
-            supported = ", ".join(CrimeFactory.__registry.keys())
+            supported = ", ".join(CrimeFactory._registry.keys())
             raise ValueError(f"Unknown crime type '{crime_type}'. Supported: {supported}")
         return crime_class(**data)
